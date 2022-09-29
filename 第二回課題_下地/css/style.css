@@ -1,0 +1,30 @@
+@charset "utf-8";
+.box1flex{
+    margin: 0 auto;
+    max-width: 960px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+
+}
+.box1flex li{
+    background-color: blue;
+    height: 300px;
+    width: 31.25%;
+    color: wheat;
+}
+.box2warp{
+    margin: 0 auto;
+    max-width: 960px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.box2warp li{
+    background-color: #f00;
+    height: 300px;
+    width: 31.25%;
+    color: white;
+}
